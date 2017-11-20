@@ -1,0 +1,166 @@
+@font-face{
+    src: url(Fonts/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+
+body{
+    background-image: url(Images/busesFondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto;
+}
+
+p{
+    color: #686767;
+    line-height: 2.5rem;
+}
+
+hr{
+    height: 21px;
+    display:block;
+    border:0px;
+    background-repeat: no-repeat;
+    background-image: url(Images/hr.png);
+    background-position: center;
+    margin-top: -10px;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12{
+    background-color: inherit;
+    align-items: inherit;
+    align-content: inherit;
+}
+
+.noPadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.lowPadding{
+    padding: 0.4rem !important;
+}
+
+.navbar-default{
+    background-color: white;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar-header{
+    width: 28%;
+    text-align: center;
+}
+
+.logo{
+    width: 60%;
+    padding: 1.4rem
+}
+
+.navbar-nav{
+    padding: 1.5rem;
+}
+
+ul.nav li.botonAct a{
+    color: #FE6901;
+    padding: 1.3rem 2rem;
+}
+
+ul.nav li.botonNav a{
+    padding: 1.3rem 2rem;
+}
+
+ul.nav li.botonAzul a{
+    background-color: #031942;
+    border-radius: 5px;
+    color: white; 
+    padding: 1.3rem 1.5rem;
+}
+
+.transparentButton{
+    background-color: transparent;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EAEAEA;
+    padding: 1rem 3rem;
+}
+
+.orangeButton{
+    background-color: #FE6901;
+    border-radius: 5px;
+    color: white; 
+    padding: 1rem 1.5rem;
+    border-style: solid;
+    border: 0px;
+}
+
+.transparente{
+    padding: 22.2rem 0rem;
+}
+
+.cuadro{
+    width: 23%;
+    position: relative;
+    left: 10.5rem;
+    z-index: 8;
+}
+
+.about{
+    background-color: white;
+    margin-top: -2.6rem;
+}
+
+.aboutText{
+    float: left;
+    background-color: inherit;
+    padding-left: 10rem;
+    z-index: 6;
+    width: 54%;
+}
+
+.services{
+    background-color: #EAECEE;
+    text-align: center;
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.joinUs{
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+#abText{
+    font-size: 16px;
+}
+
+#servicesText{
+    font-size: 15px;
+}
+
+#servicesCol{
+    width: 100%;
+}
+
+#joinCol{
+    width: 100%;
+}
